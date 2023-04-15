@@ -1,0 +1,6 @@
+n = (input('Digite algo:'))
+a = n.isalnum()
+b = n.isalpha()
+c = n.isnumeric()
+d = n.isupper()
+print('O {} é alphanumérico? {}, é alfabético? {}. é numérico? {}, é maisculo? {}'.format(n,a,b,c,d))
